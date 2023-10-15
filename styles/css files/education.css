@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://img.freepik.com/free-vector/abstract-digital-grid-vector-black-background_53876-111550.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-anchor a{
+    text-decoration: none;
+    color: aqua;
+}
+
+.nav-anchor button{
+    font-size: large;
+    border-radius: 15px;
+    background-color: black;
+    border-color: grey;
+}
+
+.nav-anchor a:hover{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.nav-anchor button:hover{
+    font-size: large;
+    border-radius: 15px;
+    background-color: aqua;
+    border-color: grey;
+}
+
+
+
+.nav-anchor{
+    display: flex;
+    justify-content: flex-end;
+    gap: 13px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+#profile{
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#profile h1{
+    color: aqua;
+    margin: 20px;
+}
+
+.grow-on-hover:hover {
+    transform: scale(1.2);
+}
+
+img{
+    border-radius: 50%;
+    height: 200px;
+}
+
+table{
+    color: aqua;
+    font-style: italic;
+    font-size: large;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    font-style: italic;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    font-style: italic;
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    content: "";
+    display: block;
+    border-top: 2px dashed #666;
+    margin: 10px 0;
+  }
