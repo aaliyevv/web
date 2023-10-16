@@ -62,33 +62,27 @@ img{
     height: 200px;
 }
 
-table{
-    color: aqua;
-    font-style: italic;
-    font-size: large;
+.contact-icons{
+    width: fit-content;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+
 }
 
-h1{
-    display: flex;
-    justify-content: center;
-    color: aqua;
-    font-style: italic;
+.contact-icons a{
+    
 }
+
+.contact-icons i{
+    font-size: 50px;
+    color: aqua;
+    margin-right: 15px;
+    background-color: darkblue;
+    padding: 10px;
+    border-radius: 20%;    
+}
+
 h2{
-    display: flex;
-    justify-content: center;
     color: aqua;
-    font-style: italic;
 }
-
-.middle{
-    display: flex;
-    justify-content: center;
-}
-
-hr {
-    content: "";
-    display: block;
-    border-top: 2px dashed #666;
-    margin: 10px 0;
-  }
